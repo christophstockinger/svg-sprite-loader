@@ -5,8 +5,9 @@
     "extract-text-webpack-plugin": "next",
     "file-loader": "1.1.10",
     "html-loader": "^0.4.5",
-    "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
-    "webpack": "git://github.com/webpack/webpack.git#dev-1"
+    "html-webpack-plugin": "next",
+    "webpack": "next",
+    "eslint":"6.8.0"
   },
   "packagesToLink": [
     "enhanced-resolve",
@@ -15,6 +16,7 @@
     "file-loader",
     "html-loader",
     "html-webpack-plugin",
-    "webpack"
+    "webpack",
+    "eslint"
   ]
 }
